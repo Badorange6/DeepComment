@@ -10,9 +10,8 @@ ___DeepComment___ is a method to recommend developers regarding appropriate comm
   The `deepComment/deepit_varlength.py` file is used to train the prediction model. The dataset is in the fold `data/`. And the trained model is in the
   folder `model/`. the trainning results on valid&test datasets are in the folder `testresult/`.   
   
-  The `test_code_len.py` file is used to analyze the impact of different code lengths on experimental results, 
-  the `test_comment_len.py` file is used to analyze the impact of different comment lengths on experimental results.
-  Their results are in the folder `testresult/`.
+The test_code_len.py file is used to analyze code lines effect on the performance of DeepComment , the test_comment_len.py file is used to analyze comment amount effect on the performance of DeepComment. Their results are in the folder testresult/.
+
   
   The files in `originData/` are the origin data of the experiment. The  `code.txt` is all of the code lines with line numbers, 
-  the  `token.txt` is tokens extracted by JDT, the `startline.txt` and  `endline.txt` are mean the code snips' start lines and end lines.
+  the  `token.txt` is tokens extracted by JDT, the `startline.txt` and  `endline.txt` are mean the code snippets' start lines and end lines.
